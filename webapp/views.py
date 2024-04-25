@@ -6,6 +6,7 @@ from django.db.models import Q
 from itertools import chain
 
 # Create your views here.
+# creating the views here.
 def home(request):
     request.session["msg"] = ''
     return render(request, 'index.html')
