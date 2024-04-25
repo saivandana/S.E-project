@@ -2,7 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-# create different models like students, categories and all.
+# create different models like students, categories, userrequests.
 class students(models.Model):
     name = models.CharField(max_length=100);
     email = models.CharField(max_length=100);
